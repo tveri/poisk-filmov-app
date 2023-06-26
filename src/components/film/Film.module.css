@@ -1,0 +1,319 @@
+.filmButtonKP
+{
+  cursor: pointer;
+  padding: 3px 7px;
+  border-radius: 8px;
+  margin: 0 7px;
+
+  border: 2px solid #e59400;
+  background-color: #ffa500;
+  transform: scale(1);
+  box-shadow: 0 0 10px #ffa500;
+  transition:
+    border 0.4s ease-in-out,
+    background-color 0.4s ease-in-out,
+    transform 0.4s ease-in-out,
+    box-shadow 0.4s ease-in-out
+}
+
+
+.filmButtonKP:hover
+{
+  border: 2px solid #eaa932;
+  background-color: #ffc04c;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #ffc04c;
+  transition:
+    border 0.4s ease-in-out,
+    background-color 0.4s ease-in-out,
+    transform 0.4s ease-in-out,
+    box-shadow 0.4s ease-in-out
+}
+
+
+.filmButtonIMDB
+{
+  padding: 3px 7px;
+  border-radius: 8px;
+  margin: 0 7px;
+  cursor: pointer;
+
+  border: 2px solid #e3d600;
+  background-color: #fdee00;
+  transform: scale(1);
+  box-shadow: 0 0 10px #fdee00;
+  transition:
+    border 0.4s ease-in-out,
+    background-color 0.4s ease-in-out,
+    transform 0.4s ease-in-out,
+    box-shadow 0.4s ease-in-out
+}
+
+
+.filmButtonIMDB:hover
+{
+  border: 2px solid #ebe24c;
+  background-color: #fdf466;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #fdf466;
+  transition:
+    border 0.4s ease-in-out,
+    background-color 0.4s ease-in-out,
+    transform 0.4s ease-in-out,
+    box-shadow 0.4s ease-in-out
+}
+
+.filmYear {
+  font-size: 0.9em;
+  color: #444;
+}
+
+@media screen and (min-width: 1000px ) {
+  .filmContainer
+  {
+    padding: 0.3vw;
+    margin: 0.3vw;
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100vw / 3 - 1.2vw);
+    height: calc(225px + 0.6vw);
+    border-radius: 5px;
+    background-color: #ddd;
+    align-items: stretch;
+
+    transform: scale(1);
+    transition:
+      transform 0.5s ease-in-out;
+  }
+
+
+  .filmContainer:hover
+  {
+    transform: scale(1.01);
+    transition:
+      transform 0.5s ease-in-out;
+  }
+
+
+  .filmTextContainer
+  {
+    background-color: #ddd;
+  }
+
+
+  .filmDescrpContainer
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(100% - 150px - 20px);
+    margin: 0 10px;
+    font-family: sans-serif;
+    background-color: #ddd;
+  }
+
+
+  .filmButtonsContainer
+  {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    background-color: #ddd;
+  }
+
+
+  .filmPreview
+  {
+    --size: 150px;
+    width: var(--size);
+    height: calc(var(--size) / (150 / 225));
+    border-radius: 5px;
+    box-shadow: 0 0 7px #bbb;
+    cursor: pointer;
+  }
+
+
+  .filmTitle
+  {
+    margin: 10px 0 0 0;
+    font-size: 1.7vw;
+    background-color: #ddd;
+  }
+
+
+  .filmAuthor
+  {
+    margin: 5px 0 0 0;
+    font-size: 1.2vw;
+    color: #999;
+    background-color: #ddd;
+  }
+
+
+  .filmRating
+  {
+    margin-bottom: 15px;
+    text-align: right;
+    color: #999;
+    font-size: 1.3vw;
+    background-color: #ddd;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+  .filmContainer
+  {
+    padding: 0.3vw;
+    margin: 0.3vw;
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100vw / 2 - 1.2vw);
+    height: calc(225px + 0.6vw);
+    border-radius: 5px;
+    background-color: #ddd;
+    align-items: stretch;
+  }
+
+
+  .filmTextContainer
+  {
+    background-color: #ddd;
+  }
+
+
+  .filmDescrpContainer
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(100% - 150px - 20px);
+    margin: 0 10px;
+    font-family: sans-serif;
+    background-color: #ddd;
+  }
+
+
+  .filmButtonsContainer
+  {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    background-color: #ddd;
+  }
+
+
+  .filmPreview
+  {
+    --size: 150px;
+    width: var(--size);
+    height: calc(var(--size) / (150 / 225));
+    border-radius: 5px;
+    box-shadow: 0 0 7px #bbb;
+  }
+
+
+  .filmTitle
+  {
+    margin: 10px 0 0 0;
+    font-size: 1.7vw;
+    background-color: #ddd;
+  }
+
+
+  .filmAuthor
+  {
+    margin: 5px 0 0 0;
+    font-size: 1.2vw;
+    color: #999;
+    background-color: #ddd;
+  }
+
+
+  .filmRating
+  {
+    margin-bottom: 15px;
+    text-align: right;
+    color: #999;
+    font-size: 1.3vw;
+    background-color: #ddd;
+  }
+}
+@media screen and (max-width: 600px) {
+
+  .filmContainer
+  {
+    padding: 0.3vw;
+    margin: 0.3vw;
+    margin-bottom: 1vw;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: calc(100vw);
+    min-height: calc(225px + 0.6vw);
+    border-radius: 5px;
+    background-color: #ddd;
+    align-items: stretch;
+  }
+
+
+  .filmTextContainer
+  {
+    background-color: #ddd;
+  }
+
+
+  .filmDescrpContainer
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: calc(100%);
+    margin: 0 10px;
+    font-family: sans-serif;
+    background-color: #ddd;
+  }
+
+
+  .filmButtonsContainer
+  {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    background-color: #ddd;
+  }
+
+
+  .filmPreview
+  {
+    --size: calc(100vw - 1.2vw);
+    width: var(--size);
+    height: calc(var(--size) / (150 / 225));
+    border-radius: 5px;
+    box-shadow: 0 0 7px #bbb;
+  }
+
+
+  .filmTitle
+  {
+    margin: 10px 0 0 0;
+    font-size: 1.7em;
+    background-color: #ddd;
+  }
+
+
+  .filmAuthor
+  {
+    margin: 5px 0 0 0;
+    font-size: 1.2em;
+    color: #999;
+    background-color: #ddd;
+  }
+
+
+  .filmRating
+  {
+    margin-bottom: 15px;
+    text-align: right;
+    color: #999;
+    font-size: 1.3em;
+    background-color: #ddd;
+  }
+}

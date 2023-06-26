@@ -1,0 +1,63 @@
+.selectContainer
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.select
+{
+  margin: 0 2vw;
+  border-radius: 5px;
+  border: 2px solid #777;
+  padding: 1px;
+  background-color: #fffff7;
+  color: #111;
+  letter-spacing: 0.5px;
+  box-shadow: 0 0 10px #777;
+  transition:
+    box-shadow 0.5s ease-in-out,
+    border 0.5s ease-in-out,
+    background-color 0.2s ease-in-out,
+    color 0.2s ease-in-out;
+}
+
+
+.select:hover
+{
+  box-shadow: 0 0 10px #aaa;
+  transition:
+    box-shadow 0.5s ease-in-out,
+    border 0.5s ease-in-out,
+    background-color 0.2s ease-in-out,
+    color 0.2s ease-in-out;
+}
+
+
+.select:focus
+{
+  border: 2px solid #666;
+  background-color: #444;
+  color: #eee;
+  box-shadow: 0 0 13px #ddd, 0 0 18px #420;
+  transition:
+    box-shadow 0.5s ease-in-out,
+    border 0.5s ease-in-out,
+    background-color 0.2s ease-in-out,
+    color 0.2s ease-in-out;
+}
+
+
+.select option:enabled
+{
+  background-color: #444;
+  color: #eee;
+}
+
+
+.select option:disabled
+{
+  background-color: #222;
+  color: #999;
+}

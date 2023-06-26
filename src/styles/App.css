@@ -1,0 +1,33 @@
+*
+{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*:focus-visible
+{
+  outline: inherit;
+
+}
+
+
+body
+{
+    background-color: #282840;
+}
+
+
+::-webkit-scrollbar
+{
+  width: 6px;
+  opacity: 0;
+}
+
+
+::-webkit-scrollbar-thumb
+{
+  height: 100px;
+  background-color: #555;
+  border-radius: 10px;
+  opacity: 1;
+}
