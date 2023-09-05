@@ -16,14 +16,14 @@
 
 .filmTitle {
   margin: 0 0 0 0;
-  font-size: 2em;
+  font-size: 3em;
 
 }
 
 .filmTitleEn {
   margin: 5px 0 0 1.5vw;
-  font-size: 1.5em;
-  color: #555;
+  font-size: 2em;
+  font-weight: 400;
 }
 
 .filmDescrpContainer {
@@ -32,13 +32,13 @@
   justify-content: space-between;
   padding: 1.2vh 0;
   margin-left: 1vw;
-  font-family: sans-serif;
   width: calc(var(--width) - 300px - 3vw);
 }
 
 .filmDescription {
   margin: 2vh 0.4vw 1vh 0.4vw;
   font-size: 1.4em;
+  font-weight: 400;
   max-width: 80vw;
 }
 
@@ -47,7 +47,7 @@
   width: var(--size);
   height: calc(var(--size) / (150 / 225));
   border-radius: 5px;
-  box-shadow: 0 0 7px #bbb;
+  box-shadow: 1px 1px 7px 0px #222;
 }
 
 .filmParam {
@@ -55,27 +55,23 @@
   margin-bottom: 0.8vh;
   letter-spacing: 1px;
   width: calc(var(--width) - 300px - 3vw);
-  font-size: 1.5em;
-  color: #000;
+  font-size: 1.6em;
 }
 
 .filmParams {
-  color: #222;
-  font-size: 0.9em;
+  font-size: 1em;
+  font-weight: 300;
   letter-spacing: 0;
 }
 
 .filmAuthor {
   margin-left: 0.7vw;
   font-size: 1.5em;
-  color: #000;
 }
 
 .filmRating {
-
   display: flex;
   justify-content: flex-end;
-  color: #999;
-  font-size: 1.7em;
-
+  font-size: 2vw;
+  font-weight: 300;
 }

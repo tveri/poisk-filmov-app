@@ -29,12 +29,12 @@ const Film: FC<IFilmComponent> = ({film}) => {
             <h2 className={classes.filmRating}>★ {film.rating.rating}</h2>
             <div className={classes.filmButtonsContainer}>
               <button
-                  className={classes.filmButtonKP}
+                  className={classes.filmButton}
                   onClick={() => {
                     window.open(film.data.webUrl)
                   }}>КиноПоиск</button>
               <button
-                  className={classes.filmButtonIMDB}
+                  className={classes.filmButton}
                   onClick={() => {
                     window.open('https://www.imdb.com/title/tt' + film.imdb)
                   }}

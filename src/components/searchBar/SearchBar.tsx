@@ -11,7 +11,7 @@ const SearchBar: FC<ISearchBar> = ({setQuerry}) => {
     <div className={classes.searchBarContainer}>
       <input
         className={classes.searchBar}
-        placeholder='Поиск...'
+        placeholder=' Поиск...'
         value={value}
         onChange={(e) => {
           setValue(e.target.value);
